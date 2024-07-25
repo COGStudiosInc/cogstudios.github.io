@@ -32,12 +32,13 @@
   vertical-align: middle;
   color: white;
   padding-right: 2vw;
+  padding-left: 2vw;
   
 
 }
 
 .bodysection{
-  background-color: grey;
+  background-color: white;
   min-height: 90vh;
 }
 
@@ -48,3 +49,37 @@
   font-size: 2.5vh;
 }
 
+.aboutsection{
+  background-color: white;
+  min-height: 90vh;
+  margin-top: -0px;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.aboutimage{
+  align-items: right;
+}
+.sectionheader{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.sectiontitle{
+  font-size: 3vh;
+  color: black;
+  padding-left: 2vw;
+  padding-top: 2vh;
+  text-decoration: none;
+}
+
+.sectioncontent{
+  font-size: 2.5vh;
+  color: black;
+  padding-left: 2vw;
+  padding-right: 2vw;
+  text-decoration: none;
+
+}
