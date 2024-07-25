@@ -58,20 +58,24 @@
 
 }
 
-.aboutimage{
+.image{
   align-items: right;
+  max-height: 30vh;
+  padding-right: 2vw;
+  padding-left: 2vw;
+  padding-top: 2vh;
 }
 .sectionheader{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: bottom;
 }
 
 .sectiontitle{
   font-size: 3vh;
   color: black;
   padding-left: 2vw;
-  padding-top: 2vh;
   text-decoration: none;
 }
 
@@ -81,5 +85,38 @@
   padding-left: 2vw;
   padding-right: 2vw;
   text-decoration: none;
+  padding-bottom: 5vh;
 
+}
+
+.contentwithimage{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.teammembersection{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-bottom: 10vh;
+
+}
+
+.teammembersectionreverse{
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  padding-bottom: 10vh;
+  text-align: right;
+}
+
+
+
+.teammembertitleanddescription{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-left: 2vw;
+  padding-right: 2vw;
 }
