@@ -1,15 +1,33 @@
-import logo from './logo.svg';
 import './App.css';
+
+import {BrowserRouter as Router, Route, Switch, Routes, Link} from "react-router-dom";
+import About from './About.js';
+import Home from './Home.js';
 import Menu from './Menu.js';
+import Playtest from './Playtest.js';
+import Contact from './Contact.js';
 
 function App() {
+  const stringPrefix = "/cogstudios.github.io"
   return (
-    <div className="App">
-      <header className="App-header">
-        <div className="title">COG Studios Inc</div>
-        <div className="menu"><Menu></Menu></div>
-      </header>
-      <div className="bodysection"></div>
+    <div>
+      
+    <Router>
+    <header className="App-header">
+          <Link to={stringPrefix+"/"} className="title">COG Studios Inc</Link>
+          <div className="menu"><Menu></Menu></div>
+        </header>
+      <Routes>
+        <Route path={stringPrefix+"/about"} Component={About}/>
+        <Route path={stringPrefix+"/playtest"} Component={Playtest} />
+        <Route path={stringPrefix+"/contact"} Component={Contact} />
+        <Route path={stringPrefix+"/"} Component={Home}/>
+        
+        <Route path="/*" Component={Home}/>
+      </Routes>
+    </Router>
+    
+
     </div>
   );
 }
