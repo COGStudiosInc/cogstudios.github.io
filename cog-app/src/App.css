@@ -16,6 +16,19 @@
   
 }
 
+.App-footer{
+  background-color: #282c34;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  vertical-align: middle;
+  color: white;
+  padding-right: 2vw;
+  padding-left: 2vw;
+}
+
 .title{
   font-size: 5vh;
   color: white;
@@ -71,6 +84,23 @@
   padding-left: 2vw;
   padding-top: 2vh;
 }
+
+.homeimage{
+  padding-left: 10vw;
+  padding-right: 10vw;
+  width: 80%;
+
+}
+
+.playtestimage{
+  padding-left: 10vw;
+  align-items: right;
+  max-height: 30vh;
+  padding-right: 2vw;
+  padding-top: 2vh;
+}
+
+
 .sectionheader{
   display: flex;
   flex-direction: row;
@@ -81,15 +111,15 @@
 .sectiontitle{
   font-size: 3vh;
   color: black;
-  padding-left: 2vw;
+  padding-left: 10vw;
   text-decoration: none;
 }
 
 .sectioncontent{
   font-size: 2.5vh;
   color: black;
-  padding-left: 2vw;
-  padding-right: 2vw;
+  padding-left: 10vw;
+  padding-right: 10vw;
   text-decoration: none;
   padding-bottom: 5vh;
 
@@ -155,4 +185,21 @@
 
 .socialicon{
   margin-right: 1vw;
+}
+
+.inputfield{
+  padding: 1vh;
+  font-size: 2vh;
+
+}
+
+.submitbutton{
+  padding: 1vh;
+  font-size: 2vh;
+  background-color: #282c34;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 3px;
+  
 }

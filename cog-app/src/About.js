@@ -3,7 +3,7 @@ import './App.css';
 const About = () => {
     const stringPrefix = "/cogstudios.github.io"
     return <div className="aboutsection">
-        <br></br>
+        <br></br><br></br>
         <div className="sectionheader"><h1 className="sectiontitle">Our Story</h1> </div>
         
         <div className="sectioncontent">
@@ -50,6 +50,42 @@ const About = () => {
                 
                     <div className="teammembertitleanddescription">
                     <h4>Team Member 3</h4>
+                    Lorem ipsum odor amet, consectetuer adipiscing elit. Molestie litora pretium amet senectus non. Faucibus fames maecenas leo pulvinar a hendrerit. Penatibus habitant dignissim bibendum molestie, dolor mauris interdum cras. Integer imperdiet pharetra posuere placerat posuere, leo fringilla massa. Orci efficitur volutpat montes consectetur consequat at. Hac iaculis pellentesque netus commodo tempor curae. Nibh cubilia interdum curae semper ipsum dapibus.
+                    </div>
+
+                    <img className="image" src="images/enemy_icon.png" alt="enemy"></img>
+                
+
+            </div>
+
+            <div className="teammembersection">
+                
+                    <div className="teammembertitleanddescription">
+                    <h4>Team Member 4</h4>
+                    Lorem ipsum odor amet, consectetuer adipiscing elit. Molestie litora pretium amet senectus non. Faucibus fames maecenas leo pulvinar a hendrerit. Penatibus habitant dignissim bibendum molestie, dolor mauris interdum cras. Integer imperdiet pharetra posuere placerat posuere, leo fringilla massa. Orci efficitur volutpat montes consectetur consequat at. Hac iaculis pellentesque netus commodo tempor curae. Nibh cubilia interdum curae semper ipsum dapibus.
+                    </div>
+
+                    <img className="image" src="images/enemy_icon.png" alt="enemy"></img>
+                
+
+            </div>
+
+            <div className="teammembersectionreverse">
+                
+                <div className="teammembertitleanddescription">
+                <h4>Team Member 5</h4>
+                Lorem ipsum odor amet, consectetuer adipiscing elit. Molestie litora pretium amet senectus non. Faucibus fames maecenas leo pulvinar a hendrerit. Penatibus habitant dignissim bibendum molestie, dolor mauris interdum cras. Integer imperdiet pharetra posuere placerat posuere, leo fringilla massa. Orci efficitur volutpat montes consectetur consequat at. Hac iaculis pellentesque netus commodo tempor curae. Nibh cubilia interdum curae semper ipsum dapibus.
+                </div>
+
+                <img className="image" src="images/enemy_icon.png" alt="enemy"></img>
+            
+
+            </div>
+
+            <div className="teammembersection">
+                
+                    <div className="teammembertitleanddescription">
+                    <h4>Team Member 6</h4>
                     Lorem ipsum odor amet, consectetuer adipiscing elit. Molestie litora pretium amet senectus non. Faucibus fames maecenas leo pulvinar a hendrerit. Penatibus habitant dignissim bibendum molestie, dolor mauris interdum cras. Integer imperdiet pharetra posuere placerat posuere, leo fringilla massa. Orci efficitur volutpat montes consectetur consequat at. Hac iaculis pellentesque netus commodo tempor curae. Nibh cubilia interdum curae semper ipsum dapibus.
                     </div>
 

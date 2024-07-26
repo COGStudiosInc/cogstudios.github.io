@@ -2,22 +2,25 @@ import React from "react";
 import './App.css';
 const Playtest = () => {
     return <div>
-        <br></br>
+        <br></br><br></br>
         <div className="sectionheader"><h1 className="sectiontitle">Become a Playtester!</h1> </div>
 
         <div className="sectioncontent">
             Sign up to become a playtester for our upcoming games! We are always looking for feedback to improve.
-            <br></br>
-            <form>
+            <br></br><br></br>
+            <form action="https://formsubmit.co/82adecf610d12f838142360b2302a34d" method="POST">
+                <input for="type" type="hidden" value="New Playtester Submission"></input>
                 <label for="email">Email: </label>
-                <input type="text" id="email" name="email"></input>
-                <button type="submit">Submit</button>
+                &nbsp;&nbsp;&nbsp;
+                <input className="inputfield" style={{fontSize: "1.7vh"}} type="text" id="email" name="email"></input>
+                &nbsp;
+                <button className="submitbutton" type="submit">Submit</button>
             </form>
             
 
         </div>
 
-        <img className="image" src="images/paroleguard.png" alt="enemy"></img>
+        <img className="playtestimage" src="images/paroleguard.png" alt="paroleguard" style={{paddingLeft: "10vw"}}></img>
 
 
 
