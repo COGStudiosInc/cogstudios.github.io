@@ -22,6 +22,12 @@
   line-height: 9vh;
   padding-left: 2vw;
   text-decoration: none;
+  max-height: 10vh;
+}
+
+.coglogo{
+  max-height: 10vh;
+
 }
 
 .menu{
@@ -128,7 +134,7 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  padding-top: 5vh;
+  padding-top: 2vh;
   padding-right: 2vw;
 }
 
@@ -137,4 +143,16 @@
   flex-direction: column;
   justify-content: space-between;
   padding-bottom: 2vh;
+}
+
+.socials{
+  display: flex;
+  flex-direction: row;
+  padding-top: 3vh;
+  padding-right: 2vw;
+}
+
+
+.socialicon{
+  margin-right: 1vw;
 }

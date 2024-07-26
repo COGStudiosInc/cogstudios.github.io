@@ -14,7 +14,7 @@ function App() {
       
     <Router>
     <header className="App-header">
-          <Link to={stringPrefix+"/"} className="title">COG Studios Inc</Link>
+          <Link to={stringPrefix+"/"} className="title"><img className="coglogo" src="images/coglogo.png" alt="COG Studios Inc"></img></Link>
           <div className="menu"><Menu></Menu></div>
         </header>
       <Routes>
