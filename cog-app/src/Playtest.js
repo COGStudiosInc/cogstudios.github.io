@@ -10,11 +10,13 @@ const Playtest = () => {
             <br></br><br></br>
             <form action="https://formsubmit.co/82adecf610d12f838142360b2302a34d" method="POST">
                 <input for="type" type="hidden" value="New Playtester Submission"></input>
+                <div className="playtestform">
                 <label for="email">Email: </label>
                 &nbsp;&nbsp;&nbsp;
                 <input className="inputfield" style={{fontSize: "1.7vh"}} type="text" id="email" name="email"></input>
                 &nbsp;
                 <button className="submitbutton" type="submit">Submit</button>
+                </div>
             </form>
             
 
