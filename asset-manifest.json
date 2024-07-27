@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/cogstudios.github.io/static/css/main.ab928252.css",
+    "main.js": "/cogstudios.github.io/static/js/main.76b211b7.js",
+    "static/js/453.0579123e.chunk.js": "/cogstudios.github.io/static/js/453.0579123e.chunk.js",
+    "index.html": "/cogstudios.github.io/index.html",
+    "main.ab928252.css.map": "/cogstudios.github.io/static/css/main.ab928252.css.map",
+    "main.76b211b7.js.map": "/cogstudios.github.io/static/js/main.76b211b7.js.map",
+    "453.0579123e.chunk.js.map": "/cogstudios.github.io/static/js/453.0579123e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ab928252.css",
+    "static/js/main.76b211b7.js"
+  ]
+}
